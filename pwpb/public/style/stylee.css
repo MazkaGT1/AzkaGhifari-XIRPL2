@@ -1,0 +1,23 @@
+body
+{
+    background-color: peachpuff;
+    width: auto;
+}
+.aselole{
+    margin-top: -200px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+    padding: 2%;
+    background-color: skyblue;
+}
+
+.image{
+    display:flex;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+}
+header
+{
+}

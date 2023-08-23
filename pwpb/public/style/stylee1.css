@@ -1,0 +1,22 @@
+.yey
+{
+    margin-top: -190px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    background-color: rgb(235, 227, 188);
+}
+body{
+    background-color: papayawhip;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    width: 1268px;
+    height: 50px;
+}
+.image{
+ border: none;
+ border-radius: 100px;
+}
