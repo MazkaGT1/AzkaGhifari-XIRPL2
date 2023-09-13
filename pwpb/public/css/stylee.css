@@ -1,0 +1,148 @@
+.body1
+{
+    
+    display:flex;
+    background-color:gray;
+    justify-content: space-between;
+    padding: 10px 30px;
+    height: 90px;
+    align-items: center;
+    top: 0;   
+}
+.image1 img{
+    height: 70px;
+    width: 70px;
+    border-radius: 75px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.judul
+{
+    color: white;
+}
+.links
+{
+    display: flex;
+    gap:45px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 120%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    margin-left: 145px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 3%;
+    background: linear-gradient(
+        to right bottom,
+        rgba(187, 188, 188, 0.8),
+        rgba(255, 255, 255, 0.432)
+      );
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.703);
+    border-radius: 10px;
+    width: 75%;
+}
+.gambar
+{
+    justify-content: end;
+    display: flex;
+    padding:2rem;
+    width: 50%;
+}
+
+.popup 
+{
+    margin: 70px auto;
+    padding: 20px;
+    background: linear-gradient(#c3e2f4 , #f3aeae);
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.overlay 
+{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(3, 3, 3, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target 
+{
+    visibility: visible;
+    opacity: 1;
+}
+.popup .close:hover 
+{
+    color: var(--blue);
+}
+.circle2 {
+    background: white;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(66, 63, 63, 0.3)
+    );
+    height: 19rem;
+    width: 19rem;
+    position: fixed;
+    top: 400px;
+    border-radius: 50%;
+    z-index: -1;
+    margin-left: 100px;
+    position: absolute;
+  }
+  .circle1 {
+      background: white;
+      background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.8),
+        rgba(70, 69, 69, 0.3)
+      );
+      height: 17rem;
+      width: 17rem;
+      position: fixed;
+      top: 120px;
+      border-radius: 50%;
+      z-index: -1;
+      margin-left: 830px;
+      position: absolute;   
+  }
+body
+{
+    background-color: rgba(192, 191, 190, 0.982);
+}
+h2
+{
+    text-align: center;
+    margin-top: 35px;
+    color: rgba(0, 0, 0, 0.874);
+}
